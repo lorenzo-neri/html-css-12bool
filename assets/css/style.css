@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+[class^="col-"] {
+    color: white;
+}
+
+.col-1>.card {
+    background-color: rgb(135, 191, 235);
+}
+.col-2>.card {
+    background-color: rgb(135, 235, 218);
+}
+.col-3>.card {
+    background-color: rgb(135, 235, 175);
+}
+.col-4>.card {
+    background-color: rgb(152, 235, 135);
+}
+.col-5>.card {
+    background-color: rgb(188, 235, 135);
+}
+.col-6>.card {
+    background-color: rgb(235, 232, 135);
+}
+.col-7>.card {
+    background-color: rgb(235, 195, 135);
+}
+.col-8>.card {
+    background-color: rgb(235, 168, 135);
+}
+.col-9>.card {
+    background-color: rgb(235, 135, 135);
+}
+.col-10>.card {
+    background-color: rgb(235, 135, 198);
+}
+.col-11>.card {
+    background-color: rgb(223, 135, 235);
+}
+.col-12>.card {
+    background-color: rgb(147, 135, 235);
+}
+
+.container{
+    padding: 1rem 0;
+}
+
+[class^="col-"]{
+    padding: 1px;
+    font-size: .9rem;
+}
+
+.card{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+}
