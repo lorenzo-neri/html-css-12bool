@@ -1,0 +1,21 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.yellow{
+    background-color: rgb(226, 219, 4);
+}
+.black{
+    background-color: rgb(0, 0, 0);
+}
+.orange{
+    background-color: rgb(235, 120, 5);
+}
+.green{
+    background-color: rgb(45, 197, 14);
+}
+
+[class^="col-"] {
+    height: 30px;
+}
