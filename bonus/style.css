@@ -6,6 +6,9 @@ body {
 .yellow{
     background-color: rgb(226, 219, 4);
 }
+.darl-yellow{
+    background-color: rgb(199, 170, 7);
+}
 .black{
     background-color: rgb(0, 0, 0);
 }
@@ -17,5 +20,5 @@ body {
 }
 
 [class^="col-"] {
-    height: 30px;
+    height: 2.5rem;
 }
